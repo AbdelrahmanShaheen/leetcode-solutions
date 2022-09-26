@@ -7,7 +7,7 @@ public:
         for(int i= 0 ;i < intervals.size() ;i++){
             start_to_idx[intervals[i][0]] = i;
         }
-        vector<int>ans(intervals.size() ,-1); //sorting.
+        vector<int>ans(intervals.size() ,-1); 
         
         //Doing the binary search.
         for(int i= 0 ;i < intervals.size() ;i++){
